@@ -1,2 +1,3 @@
 FROM php:8.2-apache
-COPY ./app /var/www/html/
+COPY ./index.php /var/www/html/
+
