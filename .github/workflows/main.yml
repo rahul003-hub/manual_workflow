@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: self-hosted  # ✅ This makes the job run on your local machine
+    runs-on: self-hosted  # this makes the job run on your local machine
 
     steps:
       - name: Checkout code
